@@ -60,6 +60,11 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.container__btn1:hover {
+    background-color: var(--white-primary);
+    color: var(--btn-blue);
+}
+
 .container__btn2{
     background-color: transparent;
     color: var(--white-primary);
@@ -69,6 +74,11 @@ body {
     border-radius: 0.5rem;
     display: block;
     margin-bottom: 0.5rem;
+}
+
+.container__btn2:hover {
+    background-color: var(--white-primary);
+    color: var(--bg-black);
 }
 
 .container__aviso {
@@ -105,6 +115,11 @@ body {
     margin-bottom: 1.5rem;
 }
 
+.main__btn:hover {
+    background-color: var(--white-primary);
+    color: var(--btn-blue);
+}
+
 .final__title {
     font-size: 3rem;
     color: var(--white-primary);
@@ -137,6 +152,10 @@ body {
 .footer__link {
     color: var(--white-primary);
     text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #167BF7;
 }
 
 .footer__text {
