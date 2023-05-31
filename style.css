@@ -21,10 +21,10 @@ body {
 
 .container {
     height: 80vh;
-    text-align: center;
-    align-items: center;
     display: grid;
     grid-template-columns: 42% 58%;
+    text-align: center;
+    align-items: center;
 }
 
 .header {
@@ -163,4 +163,66 @@ body {
     padding: 3rem 4rem;
 }
 
+@media screen and (max-width: 768px) {
 
+   .container {
+    display: block;
+   }
+
+   .header {
+    background-image: none;
+   }
+
+   .container__content {
+    display: block;
+    padding: 2rem 1rem;
+   }
+
+   .container__img {
+    width: 80vw;
+   }
+
+   .main__img {
+    margin-top: 4rem;
+    margin-left: 0;
+   }
+
+   .main__content {
+    padding: 0 1rem;
+    text-align: center;
+   }
+
+   .main__title {
+    margin-bottom: 1rem;
+   }
+
+   .main__text {
+    margin-bottom: 3rem;
+   }
+
+   .main__btn {
+    margin-top: 1rem;
+   }
+
+   .final__title {
+    padding: 0 1rem;
+   }
+
+   .final__content {
+    display: block;
+    margin-bottom: 4rem;
+   }
+
+   .footer {
+    padding: 0 1rem;
+   }
+
+   .footer__links {
+    display: block;
+   }
+
+   .footer__text {
+    padding: 1.5rem 1rem;
+   }
+
+}
